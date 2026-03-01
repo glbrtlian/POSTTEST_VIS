@@ -1,0 +1,6 @@
+﻿Build started at 19:11...
+1>------ Build started: Project: Posttest1, Configuration: Debug Any CPU ------
+1>  Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>  Posttest1 -> C:\Users\ACER\source\repos\Posttest1\Posttest1\bin\Debug\net10.0-windows\Posttest1.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 19:11 and took 05,358 seconds ==========
