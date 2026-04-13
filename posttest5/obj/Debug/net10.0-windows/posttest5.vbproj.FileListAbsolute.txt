@@ -1,0 +1,16 @@
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\posttest5.Form1.resources
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\posttest5.vbproj.GenerateResource.cache
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\posttest5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\posttest5.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\posttest5.AssemblyInfo.vb
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\posttest5.vbproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\posttest5\bin\Debug\net10.0-windows\posttest5.exe
+C:\Users\ACER\source\repos\posttest5\bin\Debug\net10.0-windows\posttest5.deps.json
+C:\Users\ACER\source\repos\posttest5\bin\Debug\net10.0-windows\posttest5.runtimeconfig.json
+C:\Users\ACER\source\repos\posttest5\bin\Debug\net10.0-windows\posttest5.dll
+C:\Users\ACER\source\repos\posttest5\bin\Debug\net10.0-windows\posttest5.pdb
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\posttest5.dll
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\refint\posttest5.dll
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\posttest5.pdb
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\posttest5.genruntimeconfig.cache
+C:\Users\ACER\source\repos\posttest5\obj\Debug\net10.0-windows\ref\posttest5.dll
