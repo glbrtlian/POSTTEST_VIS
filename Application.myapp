@@ -1,0 +1,173 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form2
+	Inherits System.Windows.Forms.Form
+
+	'Form overrides dispose to clean up the component list.
+	<System.Diagnostics.DebuggerNonUserCode()> _
+	Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+		Try
+			If disposing AndAlso components IsNot Nothing Then
+				components.Dispose()
+			End If
+		Finally
+			MyBase.Dispose(disposing)
+		End Try
+	End Sub
+
+	'Required by the Windows Form Designer
+	Private components As System.ComponentModel.IContainer
+
+	'NOTE: The following procedure is required by the Windows Form Designer
+	'It can be modified using the Windows Form Designer.  
+	'Do not modify it using the code editor.
+	<System.Diagnostics.DebuggerStepThrough()> _
+	Private Sub InitializeComponent()
+		Label1 = New Label()
+		Label2 = New Label()
+		Label3 = New Label()
+		Label4 = New Label()
+		Label5 = New Label()
+		txtNama = New TextBox()
+		cbBaju = New ComboBox()
+		dtPinjam = New DateTimePicker()
+		dtKembali = New DateTimePicker()
+		txtJumlah = New TextBox()
+		btnOK = New Button()
+		btnCancel = New Button()
+		SuspendLayout()
+		' 
+		' Label1
+		' 
+		Label1.AutoSize = True
+		Label1.Location = New Point(12, 25)
+		Label1.Name = "Label1"
+		Label1.Size = New Size(141, 25)
+		Label1.TabIndex = 0
+		Label1.Text = "Nama Peminjam"
+		' 
+		' Label2
+		' 
+		Label2.AutoSize = True
+		Label2.Location = New Point(12, 85)
+		Label2.Name = "Label2"
+		Label2.Size = New Size(97, 25)
+		Label2.TabIndex = 1
+		Label2.Text = "Nama Baju"
+		' 
+		' Label3
+		' 
+		Label3.AutoSize = True
+		Label3.Location = New Point(12, 145)
+		Label3.Name = "Label3"
+		Label3.Size = New Size(131, 25)
+		Label3.TabIndex = 2
+		Label3.Text = "Tanggal Pinjam"
+		' 
+		' Label4
+		' 
+		Label4.AutoSize = True
+		Label4.Location = New Point(12, 205)
+		Label4.Name = "Label4"
+		Label4.Size = New Size(141, 25)
+		Label4.TabIndex = 3
+		Label4.Text = "Tanggal Kembali"
+		' 
+		' Label5
+		' 
+		Label5.AutoSize = True
+		Label5.Location = New Point(12, 265)
+		Label5.Name = "Label5"
+		Label5.Size = New Size(67, 25)
+		Label5.TabIndex = 4
+		Label5.Text = "Jumlah"
+		' 
+		' txtNama
+		' 
+		txtNama.Location = New Point(185, 22)
+		txtNama.Name = "txtNama"
+		txtNama.Size = New Size(354, 31)
+		txtNama.TabIndex = 5
+		' 
+		' cbBaju
+		' 
+		cbBaju.FormattingEnabled = True
+		cbBaju.Location = New Point(185, 82)
+		cbBaju.Name = "cbBaju"
+		cbBaju.Size = New Size(354, 33)
+		cbBaju.TabIndex = 6
+		' 
+		' dtPinjam
+		' 
+		dtPinjam.Location = New Point(185, 140)
+		dtPinjam.Name = "dtPinjam"
+		dtPinjam.Size = New Size(354, 31)
+		dtPinjam.TabIndex = 7
+		' 
+		' dtKembali
+		' 
+		dtKembali.Location = New Point(185, 200)
+		dtKembali.Name = "dtKembali"
+		dtKembali.Size = New Size(354, 31)
+		dtKembali.TabIndex = 8
+		' 
+		' txtJumlah
+		' 
+		txtJumlah.Location = New Point(185, 262)
+		txtJumlah.Name = "txtJumlah"
+		txtJumlah.Size = New Size(354, 31)
+		txtJumlah.TabIndex = 9
+		' 
+		' btnOK
+		' 
+		btnOK.Location = New Point(12, 324)
+		btnOK.Name = "btnOK"
+		btnOK.Size = New Size(235, 34)
+		btnOK.TabIndex = 10
+		btnOK.Text = "Ok"
+		btnOK.UseVisualStyleBackColor = True
+		' 
+		' btnCancel
+		' 
+		btnCancel.Location = New Point(304, 324)
+		btnCancel.Name = "btnCancel"
+		btnCancel.Size = New Size(235, 34)
+		btnCancel.TabIndex = 11
+		btnCancel.Text = "Cancel"
+		btnCancel.UseVisualStyleBackColor = True
+		' 
+		' Form2
+		' 
+		AutoScaleDimensions = New SizeF(10F, 25F)
+		AutoScaleMode = AutoScaleMode.Font
+		ClientSize = New Size(564, 382)
+		Controls.Add(btnCancel)
+		Controls.Add(btnOK)
+		Controls.Add(txtJumlah)
+		Controls.Add(dtKembali)
+		Controls.Add(dtPinjam)
+		Controls.Add(cbBaju)
+		Controls.Add(txtNama)
+		Controls.Add(Label5)
+		Controls.Add(Label4)
+		Controls.Add(Label3)
+		Controls.Add(Label2)
+		Controls.Add(Label1)
+		Name = "Form2"
+		Text = "Form2"
+		ResumeLayout(False)
+		PerformLayout()
+	End Sub
+
+	Friend WithEvents Label1 As Label
+	Friend WithEvents Label2 As Label
+	Friend WithEvents Label3 As Label
+	Friend WithEvents Label4 As Label
+	Friend WithEvents Label5 As Label
+	Friend WithEvents txtNama As TextBox
+	Friend WithEvents cbBaju As ComboBox
+	Friend WithEvents dtPinjam As DateTimePicker
+	Friend WithEvents dtKembali As DateTimePicker
+	Friend WithEvents txtJumlah As TextBox
+	Friend WithEvents btnOK As Button
+	Friend WithEvents btnCancel As Button
+End Class

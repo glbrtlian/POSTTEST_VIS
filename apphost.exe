@@ -1,0 +1,61 @@
+﻿Public Class Form2
+
+    Public mode As String
+    Public idEdit As Integer
+
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        cbBaju.DataSource = GetAllBaju()
+        cbBaju.DisplayMember = "namaBaju"
+        cbBaju.ValueMember = "kodeBaju"
+
+        If mode = "EDIT" Then
+            Dim dt As DataTable = GetById(idEdit)
+
+            If dt.Rows.Count > 0 Then
+                txtNama.Text = dt.Rows(0)("namaPeminjam").ToString()
+                cbBaju.SelectedValue = dt.Rows(0)("kodeBaju").ToString()
+                dtPinjam.Value = dt.Rows(0)("tanggalPinjam")
+                dtKembali.Value = dt.Rows(0)("tanggalKembali")
+                txtJumlah.Text = dt.Rows(0)("jumlah").ToString()
+            End If
+        End If
+
+    End Sub
+
+    Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
+
+        If mode = "ADD" Then
+            SimpanPeminjaman(
+                txtNama.Text,
+                cbBaju.SelectedValue.ToString(),
+                dtPinjam.Value,
+                dtKembali.Value,
+                CInt(txtJumlah.Text)
+            )
+
+            MessageBox.Show("Data berhasil ditambah")
+
+        ElseIf mode = "EDIT" Then
+
+            UpdateData(
+                idEdit,
+                txtNama.Text,
+                cbBaju.SelectedValue.ToString(),
+                dtPinjam.Value,
+                dtKembali.Value,
+                CInt(txtJumlah.Text)
+            )
+
+            MessageBox.Show("Data berhasil diubah")
+
+        End If
+
+        Me.Close()
+    End Sub
+
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+        Me.Close()
+    End Sub
+
+End Class
